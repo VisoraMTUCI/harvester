@@ -1,0 +1,17 @@
+.git
+.gitignore
+.idea
+.vscode
+.bin
+.make-deps
+.golangci.yaml
+Makefile
+README.md
+docker
+.env
+.env.dist
+*.md
+*.log
+*.test
+*.out
+vendor

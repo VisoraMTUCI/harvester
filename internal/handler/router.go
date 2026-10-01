@@ -11,6 +11,7 @@ func MuxFactory(handlers map[string]http.HandlerFunc) *http.ServeMux {
 	for pattern, handler := range handlers {
 		mux.HandleFunc(pattern, handler)
 	}
+
 	return mux
 }
 
